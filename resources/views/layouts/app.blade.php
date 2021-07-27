@@ -513,15 +513,15 @@
 
 <body>
     <header class="bg-black text-white px-8 py-2">
-        <div class="overflow-scroll whitespace-nowrap">
-            <div class="p-4">
+        <div class="overflow-auto whitespace-nowrap">
+            <div class="p-4 inline-block">
                 <a href="/">
                     <span class="hover:text-blue-500">
                         {{ config('app.name') }}
                     </span>
                 </a>
             </div>
-            <div class="p-4">
+            <div class="p-4 inline-block">
                 <a href="{{route('transactions')}}">
                     <span class="text-sm p-1 mx-1 rounded hover:bg-blue-500">
                         {{ __('View transactions') }}
