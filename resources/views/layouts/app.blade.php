@@ -513,7 +513,7 @@
 
 <body>
     <header class="h-12 bg-black text-white px-8 py-2">
-        <div class="flex justify-between">
+        <div class="flex overflow-scroll justify-between">
             <div>
                 <a href="/">
                     <span class="hover:text-blue-500">
