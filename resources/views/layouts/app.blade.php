@@ -512,8 +512,8 @@
     </body> --}}
 
 <body>
-    <header class="h-12 bg-black text-white px-8 py-2">
-        <div class="overflow-scroll white-space-nowrap">
+    <header class="bg-black text-white px-8 py-2">
+        <div class="overflow-scroll whitespace-nowrap">
             <div class="p-4">
                 <a href="/">
                     <span class="hover:text-blue-500">
