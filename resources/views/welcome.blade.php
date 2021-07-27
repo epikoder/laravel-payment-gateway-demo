@@ -7,7 +7,7 @@
         <div class="bg-gray-100 opacity-95 mx-auto bg-white shadow-md p-8 m-12 rounded-lg">
             <h1 class="text-center text-xl p-2">
                 {{ __('Purchase Book (Test)') }}
-            </h1>
+            </h1>  
             @if ($status ?? '')
                 <div class="bg-{{ $status === 'success' ? 'blue' : 'red' }}-500 p-4 rounded m-2 text-white text-sm">
                     {{ $message ?? 'No response' }}
@@ -77,6 +77,9 @@
                     </button>
                 </div>
             </form>
+          <a class="text-blue-500 text-decoration-none text-center" href="https://github.com/epikoder/laravel-payment-gateway"> 
+              Github
+           </a>
         </div>
     </div>
 @endsection
