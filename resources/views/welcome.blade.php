@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="p-1">
-                    <input type="text" name="password" class="border p-1" placeholder="*******" required>
+                    <input type="password" name="password" class="border p-1" placeholder="*******" required>
                 </div>
                 <div class="p-1">
                     <label for="book">Select book</label>
