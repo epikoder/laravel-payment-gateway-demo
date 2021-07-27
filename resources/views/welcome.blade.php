@@ -77,8 +77,8 @@
                     </button>
                 </div>
             </form>
-          <a class="text-blue-500 text-decoration-none text-center" href="https://github.com/epikoder/laravel-payment-gateway"> 
-              Github
+          <a class="text-decoration-none" href="https://github.com/epikoder/laravel-payment-gateway"> 
+              <p> Github</p>
            </a>
         </div>
     </div>
